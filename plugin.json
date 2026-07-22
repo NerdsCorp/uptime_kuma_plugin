@@ -2,7 +2,7 @@
   "id": "uptime-kuma",
   "name": "Uptime Kuma Integration",
   "author": "Kristopher Reeves (Dr. Reeves)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Synchronizes deployed Pelican servers to an Uptime Kuma status page.",
   "category": "plugin",
   "namespace": "UptimeKuma",
