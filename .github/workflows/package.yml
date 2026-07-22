@@ -90,8 +90,8 @@ jobs:
 
       - name: Create pwa-plugin directory structure
         run: |
-          mkdir -p pwa-plugin
-          rsync -av --exclude='.git' --exclude='pwa-plugin' ./ pwa-plugin/
+          mkdir -p uptime-kuma
+          rsync -av --exclude='.git' --exclude='uptime-kuma' ./ uptime-kuma/
 
       - name: Create zip archive
         run: zip -r uptime-kuma.zip uptime-kuma/
