@@ -1,15 +1,17 @@
 {
-    "id": "uptime-kuma",
-    "name": "Uptime Kuma Integration",
-    "author": "Kristopher Reeves (Dr. Reeves)",
-    "version": "1.0.0",
-    "description": "Synchronizes deployed Pelican servers to an Uptime Kuma status page.",
-    "category": "plugin",
-    "namespace": "UptimeKuma",
-    "class": "UptimeKumaPlugin",
-    "panels": ["admin"],
-    "update_url": "https://raw.githubusercontent.com/NerdsCorp/uptime_kuma_plugin/refs/heads/main/update.json",
-    "composer_packages": {
-        "elephantio/elephant.io": "^5.0"
-    }
+  "id": "uptime-kuma",
+  "name": "Uptime Kuma Integration",
+  "author": "Kristopher Reeves (Dr. Reeves)",
+  "version": "1.0.0",
+  "description": "Synchronizes deployed Pelican servers to an Uptime Kuma status page.",
+  "category": "plugin",
+  "namespace": "UptimeKuma",
+  "class": "UptimeKumaPlugin",
+  "panels": [
+    "admin"
+  ],
+  "update_url": "https://raw.githubusercontent.com/NerdsCorp/uptime_kuma_plugin/refs/heads/main/update.json",
+  "composer_packages": {
+    "elephantio/elephant.io": "^5.0"
+  }
 }
