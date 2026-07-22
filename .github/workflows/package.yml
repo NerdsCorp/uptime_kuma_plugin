@@ -88,7 +88,7 @@ jobs:
           git checkout "${DEFAULT_BRANCH}"
           git reset --hard "origin/${DEFAULT_BRANCH}"
 
-      - name: Create pwa-plugin directory structure
+      - name: Create uptime-kuma directory structure
         run: |
           mkdir -p uptime-kuma
           rsync -av --exclude='.git' --exclude='uptime-kuma' ./ uptime-kuma/
